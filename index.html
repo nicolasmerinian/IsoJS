@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Iso JS</title>
+		<link rel = 'STYLESHEET' type = 'text/css' href = 'css/style.css' />
+	</head>
+	<body> 
+		<div id = 'container'>
+			<canvas id = 'canvasElement' width = '800' height = '600' onContextMenu = 'return false;'>
+				<!-- Message affiché si canvas n'est pas supporté par le navigateur -->
+				Votre navigateur ne gère pas les canvas.
+				Changez-le ou mettez-le à jour.
+			</canvas>	
+			<table id = 'tileset'>
+				<tr>
+				</tr>
+			</table>
+			<p>
+				<input id = 'buttonFill' type = 'button' value = 'Remplir'/>
+			</p>
+			<p>
+				<b>Molette de la souris : </b>réglage de la hauteur des tiles
+				<br />
+				<b>Shift + Molette de la souris : </b>zoom
+			</p>
+		</div>	
+		<script type = 'text/javascript' src = 'js/jquery.js'></script>
+		<script type = 'text/javascript' src = 'js/pusher.color.min.js'></script>
+		<script type = 'text/javascript' src = 'js/data.js'></script>
+		<script type = 'text/javascript' src = 'js/cube.js'></script>
+		<script type = 'text/javascript' src = 'js/Level.js'></script>
+		<script type = 'text/javascript' src = 'js/Game.js'></script>
+		<script type = 'text/javascript' src = 'js/index.js'></script>
+	</body>
+</html>

@@ -1,0 +1,25 @@
+body {
+	background-color: #F8F8F8;
+}
+
+#container {
+	width : 800px;
+	height : 600px;
+	border : 1px solid #333;
+	margin : 0 auto;
+	background : #FFF;
+	text-align : center;
+	-moz-box-shadow : 0 0 5px 5px #AAA;
+	-webkit-box-shadow : 0 0 5px 5px #AAA;
+	box-shadow : 0 0 5px 5px #AAA;
+	margin-top : 30px;
+}
+
+h1 {
+	text-align : center;
+	color : #FFF;
+}
+
+#canvas {
+	background : #000;
+}
